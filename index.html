@@ -1,199 +1,273 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pink</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header class="page-header">
-        <div class="page-header__logo">
-          <picture>
-            <source media="(min-width: 1200px)" srcset="img/logotype-desktop.svg">
-            <source media="(min-width: 768px)" srcset="img/logotype-tablet.svg">
-            <img src="img/logotype-mobile.svg" width="370" height="153" alt="Пинк">
-          </picture>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pink</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="page-header__logo">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/logotype-desktop.svg">
+        <source media="(min-width: 768px)" srcset="img/logotype-tablet.svg">
+        <img src="img/logotype-mobile.svg" width="370" height="153" alt="Пинк">
+      </picture>
+    </div>
+    <nav class="main-nav  main-nav--closed  main-nav--nojs">
+      <button class="main-nav__toggle visually-hidden" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__items">
+          <li class="main-nav__item  main-nav__item--active">
+            <a>Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="photo.html">Фотографии</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+      <h1 class="header__slogan">Взгляните на жизнь иначе!</h1>
+    </nav>
+    <div class="header__download download">
+      <a class="download__button button" href="https://www.apple.com/ru/app-store/">Скачать приложение</a>
+      <ul class="download__list">
+        <li class="download__item">
+          <a class="download__link" href="https://www.apple.com/ru/app-store/">
+            <img src="img/apple-logo.svg" alt="Логотип Apple" width="47" height="56">
+          </a>
+        </li>
+        <li class="download__item">
+          <a class="download__link" href="https://play.google.com/store/apps?hl=ru&gl=US">
+            <img src="img/android-logo.svg" alt="Логотип Android" width="43" height="47">
+          </a>
+        </li>
+        <li class="download__item">
+          <a class="download__link" href="https://www.microsoft.com/ru-ru/store/apps/windows">
+            <img src="img/microsoft-logo.svg" alt="Логотип Microsoft" width="44" height="41">
+          </a>
+        </li>
+      </ul>
+      <p class="download__text">
+        Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+      </p>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="advantages">
+      <h2 class="visually-hidden">Преимущества приложения</h2>
+      <div class="advantages__wrapper">
+        <div class="advantages__text-container">
+          <p class="advantages__header-text"> Устали от серости мегаполиса?</p>
+          <p class="advantages__header-text">Нам есть, что вам предложить!</p>
         </div>
-        <nav class="main-nav  main-nav--closed  main-nav--nojs">
-          <button class="main-nav__toggle visually-hidden" type="button">Открыть меню</button>
-          <div class="main-nav__wrapper">
-            <ul class="main-nav__items">
-              <li class="main-nav__item  main-nav__item--active">
-                  <a>Главная</a>
-                </li>
-              <li class="main-nav__item">
-                  <a href="photo.html">Фотографии</a>
-                </li>
-              <li class="main-nav__item">
-                  <a href="form.html">Конкурс</a>
-                </li>
-              <li class="main-nav__item">
-                  <a href="#">HTML Academy</a>
-                </li>
-            </ul>
-          </div>
-          <h1 class="header__slogan">Взгляните на жизнь иначе!</h1>
-        </nav>
-        <div class="header__download download">
-            <a class="download__button button" href="https://www.apple.com/ru/app-store/">Скачать приложение</a>
-            <ul class="download__list">
-              <li class="download__item">
-                <a class="download__link" href="https://www.apple.com/ru/app-store/">
-                  <img src="img/apple-logo.svg" alt="Логотип Apple" width="47" height="56">
-                </a></li>
-              <li class="download__item">
-                <a class="download__link" href="https://play.google.com/store/apps?hl=ru&gl=US">
-                  <img src="img/android-logo.svg" alt="Логотип Android" width="43" height="47">
-                </a>
-              </li>
-              <li class="download__item">
-                <a class="download__link" href="https://www.microsoft.com/ru-ru/store/apps/windows">
-                  <img src="img/microsoft-logo.svg" alt="Логотип Microsoft" width="44" height="41">
-                </a>
-              </li>
-            </ul>
-            <p class="download__text">
-              Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
-            </p>
-          </div>
-      </header>
-      <main class="page-main">
-         <section class="advantages">
-            <h2 class="visually-hidden">Преимущества приложения</h2>
-            <div class="advantages__wrapper">
-                <div class="advantages__text-container">
-                    <p class="advantages__header-text"> Устали от серости мегаполиса?</p>
-                    <p class="advantages__header-text">Нам есть, что вам предложить!</p>
-                </div>
-                <div class="advantages__list-container">
-                  <ul class="advantages__list">
-                    <li class="advantages__item">
-                        <h3>Поднимает настроение</h3>
-                        <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-                        <img class="advantages__iphone-mood" src="img/iphone-mood.png" width="186" height="382" alt="Черно-белая фотография на экране смартфона">
-                    </li>
-                    <li class="advantages__item">
-                        <h3>Меняет мир вокруг</h3>
-                        <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-                        <img class="advantages__iphone-world" src="img/iphone-world.png" width="186" height="382" alt="Фотография с розовым фильтром на экране смартфона">
-                     </li>
-                    <li class="advantages__item">
-                        <h3>Заводит новых друзей</h3>
-                        <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
-                        <img class="advantages__iphone" src="img/iphone.png" width="157" height="320"alt="Фотография с розовым фильтром и смайликом на экране смартфона">
-                    </li>
-                  </ul>
-                </div>
-                </div>
-            </section>
-            <section class="effect">
-                <div class="effect__wrapper">
-                    <div class="effect__img">
-                        <img class="effect__clock" src="" width="" height=""alt="Картинка секундомера">
-                    </div>
-                    <div class="effect__info">
-                      <h2 class="effect__title">Эффект<br> на 24 часа!</h2>
-                      <p class="effect__text">Британские ученые провели исследования
-                          <br class="effect__br-for-tablet"> и доказали, что положительный эффект
-                          <br class="effect__br-for-tablet">от использования приложения длится
-                          <br class="effect__br-for-tablet"> целые сутки!</p>
-                      <a class="effect__link" href="javascript:void(0)">Узнать больше об исследовании</a>
-                    </div>
-                  </div>
-            </section>
-            <section class="reviews">
-              <div class="reviews__wrapper">
-                <h2 class="visually-hidden">Отзывы о приложении</h2>
-                <img class="reviews__quote" src="img/" width="157" height="320"alt="Картинка кавычки">
-                <ul class="reviews__list">
-                  <li class="reviews__item">
-                    <blockquote>
-                      <div class="reviews__blockquote">
-                        <cite class="reviews__author-name">Николай Петров
-                          <span class="reviews__span">25 лет, водитель трамвая</span>
-                        </cite>
-                        <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
-                          А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-                        </p>
-                      </div>
-                    </blockquote>
-                  </li>
-                  <li class="reviews__item">
-                    <blockquote>
-                      <cite class="reviews__author-name">Николай Петров
-                        <span class="reviews__span">25 лет, водитель трамвая</span>
-                      </cite>
-                      <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
-                        А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-                      </p>
-                    </blockquote>
-                  </li>
-                  <li class="reviews__item">
-                    <blockquote>
-                      <cite class="reviews__author-name">Николай Петров
-                        <span class="reviews__span">25 лет, водитель трамвая</span>
-                      </cite>
-                      <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
-                        А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-                      </p>
-                    </blockquote>
-                  </li>
-                </ul>
-                <button class="reviews__left-arrow"><svg width="22" height="41" viewBox="0 0 22 41" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path opacity="0.3"
-                      d="M2.0413 20.5035L21.7483 1.4144C21.8281 1.3379 21.8914 1.24683 21.9346 1.14646C21.9778 1.04608 22 0.938398 22 0.829635C22 0.720871 21.9778 0.613187 21.9346 0.512814C21.8914 0.41244 21.8281 0.321369 21.7483 0.24487C21.6686 0.167255 21.5738 0.105671 21.4694 0.0636507C21.365 0.0216304 21.2532 0 21.1401 0C21.0271 0 20.9153 0.0216304 20.8109 0.0636507C20.7065 0.105671 20.6117 0.167255 20.532 0.24487L0.252535 19.9088C0.17249 19.9862 0.108978 20.0781 0.0656429 20.1793C0.0223074 20.2805 0 20.389 0 20.4985C0 20.6081 0.0223074 20.7166 0.0656429 20.8178C0.108978 20.919 0.17249 21.0109 0.252535 21.0883L20.532 40.7621C20.6967 40.9157 20.9167 41.001 21.1453 41C21.3139 40.9985 21.4783 40.9488 21.6181 40.8572C21.7578 40.7656 21.8666 40.6362 21.9309 40.485C21.9952 40.3339 22.0122 40.1677 21.9797 40.0072C21.9473 39.8467 21.8668 39.6991 21.7483 39.5827L2.0413 20.5035Z"
-                      fill="#283645" />
-                  </svg>
-                </button>
-                <button class="reviews__right-arrow"><svg width="22" height="41" viewBox="0 0 22 41" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path opacity="0.3"
-                      d="M19.9587 20.4965L0.251671 39.5856C0.171938 39.6621 0.108643 39.7532 0.065443 39.8535C0.0222435 39.9539 0 40.0616 0 40.1704C0 40.2791 0.0222435 40.3868 0.065443 40.4872C0.108643 40.5876 0.171938 40.6786 0.251671 40.7551C0.33144 40.8327 0.426224 40.8943 0.530588 40.9363C0.634953 40.9784 0.746847 41 0.859852 41C0.972857 41 1.08475 40.9784 1.18911 40.9363C1.29348 40.8943 1.38826 40.8327 1.46803 40.7551L21.7475 21.0912C21.8275 21.0138 21.891 20.9219 21.9344 20.8207C21.9777 20.7195 22 20.611 22 20.5015C22 20.3919 21.9777 20.2834 21.9344 20.1822C21.891 20.081 21.8275 19.9891 21.7475 19.9117L1.46803 0.237877C1.30326 0.0842934 1.08329 -0.00102615 0.85474 7.62939e-06C0.6861 0.00154114 0.52166 0.0511971 0.381939 0.14278C0.24222 0.234364 0.133411 0.363811 0.069088 0.51498C0.00476646 0.666149 -0.0122204 0.83234 0.0202503 0.992809C0.052721 1.15328 0.133209 1.30093 0.251671 1.41732L19.9587 20.4965Z"
-                      fill="#283645"/>
-                  </svg>
-                </button>
-                <p class="reviews__toggles slider-toggles">
-                  <button class="slider-toggles__toggle slider-toggles__toggle--current" type="button" aria-label="Первый слайд"></button>
-                  <button class="slider-toggles__toggle" type="button" aria-label="Второй слайд"></button>
-                  <button class="slider-toggles__toggle" type="button" aria-label="Третий слайд"></button>
+        <div class="advantages__list-container">
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <h3>Поднимает настроение</h3>
+              <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+              <img class="advantages__iphone-mood" src="img/iphone-mood.png" width="186" height="382"
+                alt="Черно-белая фотография на экране смартфона">
+            </li>
+            <li class="advantages__item">
+              <h3>Меняет мир вокруг</h3>
+              <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+              <img class="advantages__iphone-world" src="img/iphone-world.png" width="186" height="382"
+                alt="Фотография с розовым фильтром на экране смартфона">
+            </li>
+            <li class="advantages__item">
+              <h3>Заводит новых друзей</h3>
+              <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+              <img class="advantages__iphone" src="img/iphone.png" width="157" height="320"
+                alt="Фотография с розовым фильтром и смайликом на экране смартфона">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="effect">
+      <div class="effect__wrapper">
+        <div class="effect__img">
+          <img class="effect__clock" src="" width="" height="" alt="Картинка секундомера">
+        </div>
+        <div class="effect__info">
+          <h2 class="effect__title">Эффект<br> на 24 часа!</h2>
+          <p class="effect__text">Британские ученые провели исследования
+            <br class="effect__br-for-tablet"> и доказали, что положительный эффект
+            <br class="effect__br-for-tablet">от использования приложения длится
+            <br class="effect__br-for-tablet"> целые сутки!
+          </p>
+          <a class="effect__link" href="javascript:void(0)">Узнать больше об исследовании</a>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="reviews__wrapper">
+        <h2 class="visually-hidden">Отзывы о приложении</h2>
+        <img class="reviews__quote" src="img/" width="157" height="320" alt="Картинка кавычки">
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <blockquote>
+              <div class="reviews__blockquote">
+                <cite class="reviews__author-name">Николай Петров
+                  <span class="reviews__span">25 лет, водитель трамвая</span>
+                </cite>
+                <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
                 </p>
               </div>
-            </section>
-            <section>
-              
-            </section>
-      </main>
-    <footer class="page-footer">
-        <div class="page-footer-wrapper">
-
-            <a class="page-footer__logo">
-            <img src="img/logo-mobile-footer.svg" alt="Логотип Pink" width="145" height="40">
-            </a>
-            <div class="page-footer__social social">
-            <ul class="social__list">
-                <li class="social__item">
-                    <a class="social__link social__link--twitter" href="#">Мы в Твиттере</a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link social__link--facebook" href="#">Мы на Фейсбуке</a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link social__link--youtube" href="#">Мы на Ютубе</a>
-                </li>
-            </ul>
-            </div>
-            <div class="page-footer__copyright copyright">
-            <p class="copyright__text">Разработано
-                <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-                    <img src="img/.svg" alt="Логотип HTML Academy" width="" height="">
-                </a>
-            </p>
-            </div>
-
-        </div>
-    </footer>
-  </body>
+            </blockquote>
+          </li>
+          <li class="reviews__item">
+            <blockquote>
+              <cite class="reviews__author-name">Николай Петров
+                <span class="reviews__span">25 лет, водитель трамвая</span>
+              </cite>
+              <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+              </p>
+            </blockquote>
+          </li>
+          <li class="reviews__item">
+            <blockquote>
+              <cite class="reviews__author-name">Николай Петров
+                <span class="reviews__span">25 лет, водитель трамвая</span>
+              </cite>
+              <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+              </p>
+            </blockquote>
+          </li>
+        </ul>
+        <button class="reviews__left-arrow"><svg width="22" height="41" viewBox="0 0 22 41" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.3"
+              d="M2.0413 20.5035L21.7483 1.4144C21.8281 1.3379 21.8914 1.24683 21.9346 1.14646C21.9778 1.04608 22 0.938398 22 0.829635C22 0.720871 21.9778 0.613187 21.9346 0.512814C21.8914 0.41244 21.8281 0.321369 21.7483 0.24487C21.6686 0.167255 21.5738 0.105671 21.4694 0.0636507C21.365 0.0216304 21.2532 0 21.1401 0C21.0271 0 20.9153 0.0216304 20.8109 0.0636507C20.7065 0.105671 20.6117 0.167255 20.532 0.24487L0.252535 19.9088C0.17249 19.9862 0.108978 20.0781 0.0656429 20.1793C0.0223074 20.2805 0 20.389 0 20.4985C0 20.6081 0.0223074 20.7166 0.0656429 20.8178C0.108978 20.919 0.17249 21.0109 0.252535 21.0883L20.532 40.7621C20.6967 40.9157 20.9167 41.001 21.1453 41C21.3139 40.9985 21.4783 40.9488 21.6181 40.8572C21.7578 40.7656 21.8666 40.6362 21.9309 40.485C21.9952 40.3339 22.0122 40.1677 21.9797 40.0072C21.9473 39.8467 21.8668 39.6991 21.7483 39.5827L2.0413 20.5035Z"
+              fill="#283645" />
+          </svg>
+        </button>
+        <button class="reviews__right-arrow"><svg width="22" height="41" viewBox="0 0 22 41" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.3"
+              d="M19.9587 20.4965L0.251671 39.5856C0.171938 39.6621 0.108643 39.7532 0.065443 39.8535C0.0222435 39.9539 0 40.0616 0 40.1704C0 40.2791 0.0222435 40.3868 0.065443 40.4872C0.108643 40.5876 0.171938 40.6786 0.251671 40.7551C0.33144 40.8327 0.426224 40.8943 0.530588 40.9363C0.634953 40.9784 0.746847 41 0.859852 41C0.972857 41 1.08475 40.9784 1.18911 40.9363C1.29348 40.8943 1.38826 40.8327 1.46803 40.7551L21.7475 21.0912C21.8275 21.0138 21.891 20.9219 21.9344 20.8207C21.9777 20.7195 22 20.611 22 20.5015C22 20.3919 21.9777 20.2834 21.9344 20.1822C21.891 20.081 21.8275 19.9891 21.7475 19.9117L1.46803 0.237877C1.30326 0.0842934 1.08329 -0.00102615 0.85474 7.62939e-06C0.6861 0.00154114 0.52166 0.0511971 0.381939 0.14278C0.24222 0.234364 0.133411 0.363811 0.069088 0.51498C0.00476646 0.666149 -0.0122204 0.83234 0.0202503 0.992809C0.052721 1.15328 0.133209 1.30093 0.251671 1.41732L19.9587 20.4965Z"
+              fill="#283645" />
+          </svg>
+        </button>
+        <p class="reviews__toggles slider-toggles">
+          <button class="slider-toggles__toggle slider-toggles__toggle--current" type="button"
+            aria-label="Первый слайд"></button>
+          <button class="slider-toggles__toggle" type="button" aria-label="Второй слайд"></button>
+          <button class="slider-toggles__toggle" type="button" aria-label="Третий слайд"></button>
+        </p>
+      </div>
+    </section>
+    <section class="table-price">
+      <h2 class="visually-hidden">Прайс</h2>
+      <div class="table-price__wrapper">
+        <table class="table-price__list">
+          <tr class="table-price__table-data">
+            <th class="table-price__table-head">
+              <span class="visually-hidden">Наименование</span>
+            </th>
+            <th class="table-price__table-head">
+              <div class="table-price__standart">
+                <p>База</p>
+                <span>1,99 USD</span>
+              </div>
+            </th>
+            <th class="table-price__table-head table-price__table-head--hit">
+              <div class="table-price__standart">
+                <p>Стандарт</p>
+                <span>3,99 USD</span>
+              </div>
+            </th>
+            <th class="table-price__table-head">
+              <div class="table-price__standart">
+                <p>Англим</p>
+                <span>9,99 USD</span>
+              </div>
+            </th>
+          </tr>
+          <tr class="table-price__table-data">
+            <td class="table-price__pink">Розовый фильтр</td>
+            <td class="table-price__pink"><span class="table-price__hidden">Розовый фильтр</span></td>
+            <td class="table-price__pink"><span class="table-price__hidden">Розовый фильтр</span></td>
+            <td class="table-price__pink"><span class="table-price__hidden">Розовый фильтр</span></td>
+          </tr>
+          <tr class="table-price__table-data">
+            <td class="table-price__smile">Смайлики</td>
+            <td class="table-price__smile"><span class="table-price__hidden">Смайлики</span></td>
+            <td class="table-price__smile"><span class="table-price__hidden">Смайлики</span></td>
+            <td class="table-price__smile"><span class="table-price__hidden">Смайлики</span></td>
+          </tr>
+          <tr class="table-price__table-data">
+            <td class="table-price__comment">Комментарии</td>
+            <td class="table-price__comment"><span class="table-price__hidden">Комментарии</span></td>
+            <td class="table-price__comment"><span class="table-price__hidden">Комментарии</span></td>
+            <td class="table-price__comment"><span class="table-price__hidden">Комментарии</span></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section class="contacts">
+      <h2 class="visually-hidden">Контакты</h2>
+      <div class="contacts__wrapper">
+        <h2 class="contacts__title">Остались вопросы? Свяжитесь с нами!</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <p class="contacts__text">Звоните:</p>
+            <a class="contacts__contact" href="tel:+78125556666">+7 (812) 555-66-66</a>
+          </li>
+          <li class="contacts__item">
+            <p class="contacts__text">Пишите:</p>
+            <a class="contacts__contact" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </li>
+          <li class="contacts__item">
+            <p class="contacts__text">Приезжайте в гости:</p>
+            <p class="contacts__contact">ул. Большая Конюшенная, 19/8</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="map">
+      <h2 class="visually-hidden">Интерактивная карта</h2>
+      <div class="map__container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253002735!2d30.320858715543054!3d59.93871916905486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1631955805005!5m2!1sru!2sru">
+        </iframe>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer-wrapper">
+      <a class="page-footer__logo">
+        <img src="img/logo-mobile-footer.svg" alt="Логотип Pink" width="145" height="40">
+      </a>
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="#">Мы в Твиттере</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="#">Мы на Фейсбуке</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="#">Мы на Ютубе</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <p class="copyright__text">Разработано
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <img src="img/.svg" alt="Логотип HTML Academy" width="" height="">
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
